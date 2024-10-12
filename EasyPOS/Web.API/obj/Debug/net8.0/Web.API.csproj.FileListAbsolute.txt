@@ -37,3 +37,6 @@ C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\obj\Debug\net8.0\refint\Web.API.dll
 C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\obj\Debug\net8.0\Web.API.pdb
 C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\obj\Debug\net8.0\Web.API.genruntimeconfig.cache
 C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\obj\Debug\net8.0\ref\Web.API.dll
+C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\PC\Documents\Cursos\EasyPOS\Web.API\obj\Debug\net8.0\Web.API.sourcelink.json

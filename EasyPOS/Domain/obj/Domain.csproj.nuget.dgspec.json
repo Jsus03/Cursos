@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {}
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

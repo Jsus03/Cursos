@@ -26,7 +26,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
             }
 
             if (Address.Create(command.Country, command.Line1, command.Line2, command.City, 
-                        command.State, command.ZipCode) is not Address addres)
+                        command.State, command.ZipCode) is not Address address)
             {
                 return Error.Validation("Customer.Address", "Addres is not valid."); 
             }
@@ -37,11 +37,11 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
                 command.LastName,
                 command.Email,
                 phoneNumber,
-                addres, 
+                address, 
                 true
             );
 
-            await _customerRepository.Add(customer);
+            _customerRepository.Add(customer);
 
             await _unitOfWork.SaveChangesAsync(cancellationToken);
 

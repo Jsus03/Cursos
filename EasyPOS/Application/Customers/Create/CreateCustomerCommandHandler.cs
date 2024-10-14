@@ -1,6 +1,7 @@
 using Domain.Customers;
 using Domain.Primitives;
-using System;
+using Domain.ValueObjects;
+using MediatR;
 
 namespace Application.Customers.Create;
 public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustomerCommand, Unit>
@@ -14,7 +15,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
         _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
     }
 
-    public async Task<Unit> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(CreateCustomerCommand command, CancellationToken cancellationToken)
     {
         if (PhoneNumber.Create(command.PhoneNumber) is not PhoneNumber phoneNumber)
         {
@@ -22,7 +23,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
         }
 
         if (Address.Create(command.Country, command.Line1, command.Line2, command.City, 
-                    command.State, command.ZipCode) is not Addres addres)
+                    command.State, command.ZipCode) is not Address addres)
         {
             throw new ArgumentException(nameof(addres));
         }
@@ -39,7 +40,7 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
 
         await _customerRepository.Add(customer);
 
-        await _unitOfWork.SaveChangeAsync(cancellationToken);
+        await _unitOfWork.SaveChangesAsync(cancellationToken);
 
         return Unit.Value;
     }

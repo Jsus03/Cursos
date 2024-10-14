@@ -1,6 +1,5 @@
-using System.Collections.ObjectModel;
-
 namespace Domain.Primitives;
+
 public abstract class AggregateRoot
 {
     private readonly List<DomainEvent> _domainEvents = new();

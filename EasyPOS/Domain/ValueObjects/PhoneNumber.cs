@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace Domain.valueObjects;
+namespace Domain.ValueObjects;
 
 public partial record PhoneNumber
 {

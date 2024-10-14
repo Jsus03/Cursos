@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -202,6 +202,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -250,8 +256,8 @@
               "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj"
               },
-              "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj"
+              "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -274,6 +280,12 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

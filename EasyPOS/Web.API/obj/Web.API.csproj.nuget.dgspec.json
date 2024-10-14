@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj": {}
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj"
+              "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,14 +162,14 @@
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -187,11 +187,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj"
+              "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj"
               },
-              "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj"
+              "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj"
               }
             }
           }
@@ -236,14 +236,14 @@
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj": {
+    "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj",
+        "projectUniqueName": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj",
         "projectName": "Web.API",
-        "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj",
+        "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\Web.API.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\obj\\",
+        "outputPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Web.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -261,11 +261,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj"
+              "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Application\\Application.csproj"
               },
-              "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj"
+              "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

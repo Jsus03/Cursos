@@ -1,6 +1,7 @@
 using Domain.Customers;
 using Domain.Primitives;
 using Domain.ValueObjects;
+using Domain.DomainErrors;
 using ErrorOr;
 using MediatR;
 
@@ -22,13 +23,13 @@ public sealed class CreateCustomerCommandHandler : IRequestHandler<CreateCustome
         {
             if (PhoneNumber.Create(command.PhoneNumber) is not PhoneNumber phoneNumber)
             {
-                return Error.Validation("Customer.PhoneNumber", "Phone number has not valid format.");
+                return Errors.Customer.PhoneNumberWithBadFormat;
             }
 
             if (Address.Create(command.Country, command.Line1, command.Line2, command.City, 
                         command.State, command.ZipCode) is not Address address)
             {
-                return Error.Validation("Customer.Address", "Addres is not valid."); 
+                return Errors.Customer.AddresWithBadFormat;
             }
 
             var customer = new Customer(

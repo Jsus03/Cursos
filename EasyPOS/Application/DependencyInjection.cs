@@ -1,5 +1,5 @@
 using FluentValidation;
-using Microsoft.Extension.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Application;
 

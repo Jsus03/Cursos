@@ -9,7 +9,7 @@ public record CreateCustomerCommand(
     string PhoneNumber,
     string Country,
     string Line1,
-    sring Line2,
+    string Line2,
     string City,
     string State,
     string ZipCode) : IRequest<Unit>;

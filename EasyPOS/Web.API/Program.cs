@@ -2,6 +2,7 @@ using Application;
 using Infrastructure.Services;
 using Web.API;
 using Web.API.Extensions;
+using Web.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,10 @@ if (app.Environment.IsDevelopment())
 app.UseExceptionHandler("/error");
 
 app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.UseMiddleware<GlobalExceptionHandlingMiddleware>();
 
 var summaries = new[]
 {

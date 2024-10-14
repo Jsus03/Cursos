@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7epGkDEjTfA=",
+  "dgSpecHash": "zdw0Ypz0RdU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
+  "projectFilePath": "c:\\Users\\PC\\Documents\\Cursos\\EasyPOS\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\erroror\\2.0.1\\erroror.2.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
